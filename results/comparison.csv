@@ -1,0 +1,106 @@
+claim,paper,reproduced,tolerance,match
+Table 2 Claude success,73,73,0.05,yes
+Table 2 Claude failed (partial),27 (4),27 (4),,yes
+Table 2 Claude rate %,73.0,73.0,0.05,yes
+Table 2 Gemini success,72,72,0.05,yes
+Table 2 Gemini failed (partial),28 (7),28 (7),,yes
+Table 2 Gemini rate %,72.0,72.0,0.05,yes
+Table 2 Codex success,60,60,0.05,yes
+Table 2 Codex failed (partial),40 (3),40 (3),,yes
+Table 2 Codex rate %,60.0,60.0,0.05,yes
+Table 2 Overall success,205,205,0.05,yes
+Table 2 Overall failed (partial),95 (14),95 (14),,yes
+Table 2 Overall rate %,68.3,68.3,0.05,yes
+Table 3 Python success/total,107/120,107/120,,yes
+Table 3 Python rate %,89.2,89.2,0.05,yes
+Table 3 Python 95% CI,"[82.4, 93.6]","[82.3, 93.6]",0.1,yes
+Table 3 JavaScript success/total,65/105,65/105,,yes
+Table 3 JavaScript rate %,61.9,61.9,0.05,yes
+Table 3 JavaScript 95% CI,"[52.3, 70.6]","[52.4, 70.6]",0.1,yes
+Table 3 Java success/total,33/75,33/75,,yes
+Table 3 Java rate %,44.0,44.0,0.05,yes
+Table 3 Java 95% CI,"[33.2, 55.3]","[33.3, 55.3]",0.1,yes
+Table 4 Claude Python success/n,32/40,32/40,,yes
+Table 4 Claude Python rate %,80.0,80.0,0.05,yes
+Table 4 Claude Python 95% CI,"[65.2, 89.5]","[65.2, 89.5]",0.1,yes
+Table 4 Claude JavaScript success/n,21/35,21/35,,yes
+Table 4 Claude JavaScript rate %,60.0,60.0,0.05,yes
+Table 4 Claude JavaScript 95% CI,"[43.6, 74.4]","[43.6, 74.4]",0.1,yes
+Table 4 Claude Java success/n,20/25,20/25,,yes
+Table 4 Claude Java rate %,80.0,80.0,0.05,yes
+Table 4 Claude Java 95% CI,"[60.9, 91.1]","[60.9, 91.1]",0.1,yes
+Table 4 Gemini Python success/n,40/40,40/40,,yes
+Table 4 Gemini Python rate %,100.0,100.0,0.05,yes
+Table 4 Gemini Python 95% CI,"[91.2, 100.0]","[91.2, 100.0]",0.1,yes
+Table 4 Gemini JavaScript success/n,25/35,25/35,,yes
+Table 4 Gemini JavaScript rate %,71.4,71.4,0.05,yes
+Table 4 Gemini JavaScript 95% CI,"[54.9, 83.7]","[54.9, 83.7]",0.1,yes
+Table 4 Gemini Java success/n,7/25,7/25,,yes
+Table 4 Gemini Java rate %,28.0,28.0,0.05,yes
+Table 4 Gemini Java 95% CI,"[14.3, 47.6]","[14.3, 47.6]",0.1,yes
+Table 4 Codex Python success/n,35/40,35/40,,yes
+Table 4 Codex Python rate %,87.5,87.5,0.05,yes
+Table 4 Codex Python 95% CI,"[73.9, 94.5]","[73.9, 94.5]",0.1,yes
+Table 4 Codex JavaScript success/n,19/35,19/35,,yes
+Table 4 Codex JavaScript rate %,54.3,54.3,0.05,yes
+Table 4 Codex JavaScript 95% CI,"[38.2, 69.5]","[38.2, 69.5]",0.1,yes
+Table 4 Codex Java success/n,6/25,6/25,,yes
+Table 4 Codex Java rate %,24.0,24.0,0.05,yes
+Table 4 Codex Java 95% CI,"[11.5, 43.4]","[11.5, 43.4]",0.1,yes
+Table 5 Syntax Errors count,31,31,0.05,yes
+Table 5 Syntax Errors %,32.6,32.6,0.05,yes
+Table 5 Malformed Output count,16,16,0.05,yes
+Table 5 Malformed Output %,16.8,16.8,0.05,yes
+Table 5 Configuration count,18,18,0.05,yes
+Table 5 Configuration %,18.9,18.9,0.05,yes
+Table 5 Other count,13,13,0.05,yes
+Table 5 Other %,13.7,13.7,0.05,yes
+Table 5 System Error count,10,10,0.05,yes
+Table 5 System Error %,10.5,10.5,0.05,yes
+Table 5 Dependency count,7,7,0.05,yes
+Table 5 Dependency %,7.4,7.4,0.05,yes
+Table 5 Code Errors subtotal count,47,47,0.05,yes
+Table 5 Code Errors subtotal %,49.5,49.5,0.05,yes
+Table 5 Environment subtotal count,48,48,0.05,yes
+Table 5 Environment subtotal %,50.5,50.5,0.05,yes
+Table 5 total failures,95,95,0.05,yes
+Figure 4 Claude CODE,10,10,0.05,yes
+Figure 4 Claude ENV,17,17,0.05,yes
+Figure 4 Claude Malformed Output,0,0,0.05,yes
+Figure 4 Claude Configuration,5,5,0.05,yes
+Figure 4 Claude Dependency,2,2,0.05,yes
+Figure 4 Codex CODE,21,21,0.05,yes
+Figure 4 Codex ENV,19,19,0.05,yes
+Figure 4 Codex Malformed Output,8,8,0.05,yes
+Figure 4 Codex Syntax Errors,13,13,0.05,yes
+Figure 4 Codex Configuration,11,11,0.05,yes
+Figure 4 Codex Dependency,3,3,0.05,yes
+Figure 4 Gemini CODE,16,16,0.05,yes
+Figure 4 Gemini ENV,12,12,0.05,yes
+Figure 4 Gemini Malformed Output,8,8,0.05,yes
+Figure 4 Gemini Configuration,2,2,0.05,yes
+Figure 4 Gemini Dependency,2,2,0.05,yes
+Completeness gap k=0 artifacts,282,282,0.05,yes
+Completeness gap k=1 artifacts,18,18,0.05,yes
+Completeness gap k=0 share %,94,94,0,yes
+Completeness gap k=1 share %,6,6,0,yes
+Completeness gap max,1,1,0.05,yes
+Figure 5 Claude Python artifacts with gap,4,4,0.05,yes
+Figure 5 Claude Java artifacts with gap,1,1,0.05,yes
+Figure 5 Claude JavaScript artifacts with gap,0,0,0.05,yes
+Figure 5 Codex Python artifacts with gap,3,3,0.05,yes
+Figure 5 Codex Java artifacts with gap,4,4,0.05,yes
+Figure 5 Codex JavaScript artifacts with gap,0,0,0.05,yes
+Figure 5 Gemini Python artifacts with gap,4,4,0.05,yes
+Figure 5 Gemini Java artifacts with gap,1,1,0.05,yes
+Figure 5 Gemini JavaScript artifacts with gap,1,1,0.05,yes
+Figure 6 Python claimed,2.6,2.6,0.05,yes
+Figure 6 Python runtime,11.1,11.1,0.05,yes
+Figure 6 Python multiplier,4.3,4.3,0.05,yes
+Figure 6 Java claimed,3.0,3.0,0.05,yes
+Figure 6 Java runtime,27.7,27.7,0.05,yes
+Figure 6 Java multiplier,9.4,9.4,0.05,yes
+Figure 6 JavaScript claimed,3.0,3.0,0.05,yes
+Figure 6 JavaScript runtime,94.8,94.8,0.05,yes
+Figure 6 JavaScript multiplier,31.4,31.4,0.05,yes
+Weighted runtime multiplier (x),15,15,0,yes

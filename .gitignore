@@ -1,13 +1,4 @@
 __pycache__/
 *.pyc
-*.pyo
-.ipynb_checkpoints/
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
-*.log
-node_modules/
-target/
-.claude/
-docker/results/
+.venv/
+.env

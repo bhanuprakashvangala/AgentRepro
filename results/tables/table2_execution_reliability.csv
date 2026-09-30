@@ -1,0 +1,5 @@
+agent,total,success,failed,partial,rate
+Claude,100,73,27,4,73.0
+Codex,100,60,40,3,60.0
+Gemini,100,72,28,7,72.0
+Overall,300,205,95,14,68.3

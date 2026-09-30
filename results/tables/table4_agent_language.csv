@@ -1,0 +1,10 @@
+agent,language,n,success,rate,ci_low,ci_high,with_gap
+Claude,Python,40,32,80.0,65.2,89.5,4
+Claude,JavaScript,35,21,60.0,43.6,74.4,0
+Claude,Java,25,20,80.0,60.9,91.1,1
+Codex,Python,40,35,87.5,73.9,94.5,3
+Codex,JavaScript,35,19,54.3,38.2,69.5,0
+Codex,Java,25,6,24.0,11.5,43.4,4
+Gemini,Python,40,40,100.0,91.2,100.0,4
+Gemini,JavaScript,35,25,71.4,54.9,83.7,1
+Gemini,Java,25,7,28.0,14.3,47.6,1

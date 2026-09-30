@@ -1,0 +1,10 @@
+group,category,count,pct
+Code Errors,Syntax Errors,31,32.6
+Code Errors,Malformed Output,16,16.8
+Code Errors,Subtotal,47,49.5
+Environment,Configuration,18,18.9
+Environment,Other,13,13.7
+Environment,System Error,10,10.5
+Environment,Dependency,7,7.4
+Environment,Subtotal,48,50.5
+Total,,95,100.0

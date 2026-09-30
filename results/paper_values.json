@@ -1,0 +1,67 @@
+{
+  "_source": "Values as printed in the ACM REP '26 paper (doi:10.1145/3820002.3828581). Percentages in %, CIs are Wilson 95%.",
+  "table2_agent": {
+    "Claude": {"total": 100, "success": 73, "failed": 27, "partial": 4, "rate": 73.0},
+    "Gemini": {"total": 100, "success": 72, "failed": 28, "partial": 7, "rate": 72.0},
+    "Codex":  {"total": 100, "success": 60, "failed": 40, "partial": 3, "rate": 60.0},
+    "Overall": {"total": 300, "success": 205, "failed": 95, "partial": 14, "rate": 68.3}
+  },
+  "table3_language": {
+    "Python":     {"total": 120, "success": 107, "rate": 89.2, "ci": [82.4, 93.6]},
+    "JavaScript": {"total": 105, "success": 65,  "rate": 61.9, "ci": [52.3, 70.6]},
+    "Java":       {"total": 75,  "success": 33,  "rate": 44.0, "ci": [33.2, 55.3]}
+  },
+  "table4_agent_language": {
+    "Claude|Python":     {"n": 40, "success": 32, "rate": 80.0,  "ci": [65.2, 89.5]},
+    "Claude|JavaScript": {"n": 35, "success": 21, "rate": 60.0,  "ci": [43.6, 74.4]},
+    "Claude|Java":       {"n": 25, "success": 20, "rate": 80.0,  "ci": [60.9, 91.1]},
+    "Gemini|Python":     {"n": 40, "success": 40, "rate": 100.0, "ci": [91.2, 100.0]},
+    "Gemini|JavaScript": {"n": 35, "success": 25, "rate": 71.4,  "ci": [54.9, 83.7]},
+    "Gemini|Java":       {"n": 25, "success": 7,  "rate": 28.0,  "ci": [14.3, 47.6]},
+    "Codex|Python":      {"n": 40, "success": 35, "rate": 87.5,  "ci": [73.9, 94.5]},
+    "Codex|JavaScript":  {"n": 35, "success": 19, "rate": 54.3,  "ci": [38.2, 69.5]},
+    "Codex|Java":        {"n": 25, "success": 6,  "rate": 24.0,  "ci": [11.5, 43.4]}
+  },
+  "table5_errors": {
+    "counts": {
+      "Syntax Errors": 31,
+      "Malformed Output": 16,
+      "Code Errors subtotal": 47,
+      "Configuration": 18,
+      "Other": 13,
+      "System Error": 10,
+      "Dependency": 7,
+      "Environment subtotal": 48,
+      "Total": 95
+    },
+    "pct": {
+      "Syntax Errors": 32.6,
+      "Malformed Output": 16.8,
+      "Code Errors subtotal": 49.5,
+      "Configuration": 18.9,
+      "Other": 13.7,
+      "System Error": 10.5,
+      "Dependency": 7.4,
+      "Environment subtotal": 50.5
+    }
+  },
+  "figure4_by_agent": {
+    "Claude": {"CODE": 10, "ENV": 17, "Malformed Output": 0, "Configuration": 5, "Dependency": 2},
+    "Codex":  {"CODE": 21, "ENV": 19, "Malformed Output": 8, "Syntax Errors": 13, "Configuration": 11, "Dependency": 3},
+    "Gemini": {"CODE": 16, "ENV": 12, "Malformed Output": 8, "Configuration": 2, "Dependency": 2}
+  },
+  "completeness_gap": {
+    "k0": 282, "k1": 18, "k0_pct": 94, "k1_pct": 6, "max_gap": 1,
+    "per_cell": {
+      "Claude|Python": 4, "Claude|Java": 1, "Claude|JavaScript": 0,
+      "Codex|Python": 3,  "Codex|Java": 4,  "Codex|JavaScript": 0,
+      "Gemini|Python": 4, "Gemini|Java": 1, "Gemini|JavaScript": 1
+    }
+  },
+  "figure6_runtime": {
+    "Python":     {"claimed": 2.6, "runtime": 11.1, "multiplier": 4.3},
+    "Java":       {"claimed": 3.0, "runtime": 27.7, "multiplier": 9.4},
+    "JavaScript": {"claimed": 3.0, "runtime": 94.8, "multiplier": 31.4},
+    "weighted_multiplier": 15
+  }
+}

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "AI-Generated Code Is Not Reproducible (Yet): An Empirical Study of Execution Reliability in LLM-Based Coding Agents"
+repository-code: "https://github.com/bhanuprakashvangala/AgentRepro"
+license: MIT
+authors:
+  - family-names: Vangala
+    given-names: Bhanu Prakash
+  - family-names: Gehani
+    given-names: Ashish
+  - family-names: Malik
+    given-names: Tanu
+preferred-citation:
+  type: conference-paper
+  title: "AI-Generated Code Is Not Reproducible (Yet): An Empirical Study of Execution Reliability in LLM-Based Coding Agents"
+  collection-title: "Proceedings of the ACM Conference on Reproducibility and Replicability (ACM REP '26)"
+  publisher:
+    name: ACM
+  year: 2026
+  start: 33
+  end: 46
+  doi: "10.1145/3820002.3828581"
+  authors:
+    - family-names: Vangala
+      given-names: Bhanu Prakash
+    - family-names: Gehani
+      given-names: Ashish
+    - family-names: Malik
+      given-names: Tanu

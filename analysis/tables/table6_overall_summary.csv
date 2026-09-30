@@ -1,7 +1,0 @@
-Metric,Value
-Total Projects Analyzed,300
-Successful Executions,205 (68.3%)
-Partial Executions,14 (4.7%)
-Failed Executions,81 (27.0%)
-Projects with Incomplete Dependencies,18 (6.0%)
-Average Runtime Multiplier,15x

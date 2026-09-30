@@ -1,0 +1,9 @@
+error_category,Claude,Codex,Gemini
+Syntax Errors,10,13,8
+Malformed Output,0,8,8
+Configuration,5,11,2
+Other,6,2,5
+System Error,4,3,3
+Dependency,2,3,2
+CODE,10,21,16
+ENV,17,19,12
